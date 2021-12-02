@@ -1,5 +1,5 @@
 
-RES_PATH = "C:\\Projects\\AdventOfCode2021\\res\\"
+RES_PATH = "C:\\Projects\\AdventOfCode2021\\input\\"
 INPUT = "input"
 EXAMPLE = "example"
 TXT = ".txt"
