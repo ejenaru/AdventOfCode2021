@@ -1,7 +1,7 @@
 import commons
 
 
-file = commons.get_file("01")
+file = commons.get_file()
 input_list = list(map(int, file.readlines()))
  
 def part1():

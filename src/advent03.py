@@ -3,7 +3,7 @@ import commons
 report_list = []
 
 def part1():
-	with commons.get_file("03") as file:
+	with commons.get_file() as file:
 		createList(file)
 		gamma = getGammaRate(report_list)
 		epsilon = getEpsilonRate(gamma)

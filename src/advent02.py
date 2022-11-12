@@ -32,7 +32,7 @@ commands = {
 
 def part11():
 	sub = Submarine()
-	with commons.get_file("02") as file:
+	with commons.get_file() as file:
 		for line in file:
 			command = line.split()[0]
 			data = int(line.split()[1])
@@ -43,7 +43,7 @@ def part11():
 
 def part1():
 	sub = Submarine()
-	with commons.get_file("02") as file:
+	with commons.get_file() as file:
 		for line in file:
 			command = line.split()
 			commands[command[0]] += int(command[1])
@@ -55,7 +55,7 @@ def part1():
 
 def part2():
 	sub = Submarine()
-	with commons.get_file("02") as file:
+	with commons.get_file() as file:
 		for line in file:
 			command = line.split()[0]
 			data = int(line.split()[1])
